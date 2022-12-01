@@ -28,3 +28,5 @@ puts "#{elves.max} most caloric elf"
 
 elves.sort!     #Sorts array in place, meaning that elves is now changed
 puts "#{elves[-1] + elves[-2] + elves[-3]} total calories in top 3 elves"       # -1 indicies count backwards from the end of an array
+
+#Time to complete, 12 minutes
