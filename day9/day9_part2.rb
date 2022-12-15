@@ -21,7 +21,7 @@ input.each do |line|
             tail_x = knots[index + 1][0]                #tail_X is the x coord of the next segment
             tail_y = knots[index + 1][1]                #tail_y is the y coord of the next segment
 
-            if index == 0
+            if index == 0                               #Only move the head if were processing the first knot
                 case direction
                 when "U"
                     head_y += 1
